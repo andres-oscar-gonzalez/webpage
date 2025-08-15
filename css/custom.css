@@ -1,9 +1,23 @@
-/* Theme Name: The Project - Responsive Website Template
-Author:HtmlCoder
-Author URI:http://www.htmlcoder.me
-Author e-mail:htmlcoder.me@gmail.com
-Version:1.4.0
-Created:December 2014
-License URI:http://support.wrapbootstrap.com/
-File Description: Place here your custom CSS styles
-*/
+@media only screen and (max-width: 414px) {
+  .tp-kbimg {
+    transform: translate3d(200px, 0px, 0px) scale(1.1, 1.1) !important;
+  }
+  .tp-kbimg-wrap {
+    transform: translate3d(-798px, 0px, 0px) !important;
+  }
+}
+
+@media screen and (min-width: 414px) and (max-width: 600px) {
+  .tp-kbimg {
+    transform: translate3d(45px, 0px, 0px) scale(1.1, 1.1) !important;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 820px) {
+  .tp-kbimg {
+    transform: translate3d(45px, 0px, 0px) scale(1.1, 1.1) !important;
+  }
+  .tp-kbimg-wrap {
+    transform: translate3d(-966px, 0px, 0px) !important;
+  }
+}
